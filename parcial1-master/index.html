@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TechStore</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand">TechStore</a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container mt-4">
+        <h1>Bienvenidos a TechStore</h1>
+        <p id="descripcion">La mejor tienda de tecnología.</p>
+
+        <button class="btn btn-primary" onclick="cambiarTexto()">Cambiar texto</button>
+        <button class="btn btn-secondary" onclick="modoOscuro()">Modo oscuro</button>
+    </header>
+
+    <section class="container mt-5" id="productos">
+
+        <h2>Productos</h2>
+
+       <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/mousegamer2.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Mouse Gamer M100 Hp Original
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/monitor1.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Monitor LG Gamer 24" Pulgadas 24GS65F FHD Plano Negro
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/teclado1.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                   Teclado Hyperx Alámbrico Mecánico Alloy Rise Negro
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/pcgamer1.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Torre Gamer Ryzen7-5700g-32gb Ram-rtx3050 6gb-1tb Ssd-board
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/parlantes.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Parlantes Genius SP-HF180
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/ram.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                  DDR5 Kingston FURY Beast 16GB
+
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/tablet.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Tablet Honor 12.1" Pulgadas Pad 10 256gb WiFi Gris
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/vivobook.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Portátil ASUS Vivobook 16 | Intel Core i5 | 16 GB de RAM | 1TB SSD de almacenamiento 
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                    <img src="img/sillag.webp" class="card-img-top"   alt="">
+                  <p class="card-text">
+                    Silla De Escritorio Gamer Neo 53x126,5x64 Cm Azul/negro
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Agregar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+        </section>
+    
+
+    
+
+    <section class="container mt-5" id="contacto">
+
+        <h2>Contacto</h2>
+
+        <form id="formContacto">
+
+            <input type="text" id="nombre" placeholder="Nombre" class="form-control mb-2">
+
+            <input type="email" id="correo" placeholder="Correo" class="form-control mb-2">
+
+            <input type="direccion" id="direccion" placeholder="Direccion" class="form-control mb-2">
+
+            <input type="contacto" id="telefono" placeholder="Telefono" class="form-control mb-2">
+
+            <textarea id="mensaje" class="form-control mb-2"></textarea>
+
+            <button class="btn btn-primary" onclick="enviarFormulario()">Enviar</button>
+
+        </form>
+
+    </section>
+    <script>
+    function showCustomAlert(message) {
+        document.getElementById("alertMessage").innerText = message;
+        document.getElementById("customAlert").style.display = "flex";
+    }
+    function closeAlert() {
+        document.getElementById("customAlert").style.display = "none";
+    }
+    document.getElementById("signupForm").addEventListener("submit", function(e){
+        e.preventDefault();
+
+        let nombres = document.getElementById("nombres").value;
+        let apellidos = document.getElementById("apellidos").value;
+        let email = document.getElementById("email").value;
+        let telefono = document.getElementById("telefono").value;
+
+        let mensaje =
+        "Nombres: " + nombres + "\n" +
+        "Apellidos: " + apellidos + "\n" +
+        "Email: " + email + "\n" +
+        "Teléfono: " + telefono + "\n" +
+
+      showCustomAlert(mensaje);
+    });
+    document.getElementById("cancelarBtn").addEventListener("click", function(){
+      window.location.href = "admin.html";
+    });
+  </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
